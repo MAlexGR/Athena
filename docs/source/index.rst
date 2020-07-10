@@ -6,18 +6,51 @@
 Welcome to Athena Docs's documentation!
 =======================================
 
+
 .. toctree::
    :maxdepth: 1
-   :caption: Γλώσσες Προγραμματισμού
+   :caption: Σχετικά με αυτό το site
 
-   latex/tex-Start
-   rest/rst-Start
+   about/index
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Programming
+
+   python/index
+   R/index
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Literal Programming
+
+   latex/index
+   rest/index
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: IDE
+
+   
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Guides
+
+   
+
 
 Indices and tables
 ==================
 .. toctree::
    :maxdepth: 1
 
+   site.Acronyms
    terms
    
 * :ref:`genindex`

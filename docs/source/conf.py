@@ -40,6 +40,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.autodoc",
     "sphinxcontrib.programoutput",
+    "sphinx.ext.imgconverter",
 ]
 
 # 1.1 Extensions Configuration
@@ -65,7 +66,9 @@ extlinks = {
  
 'pyorg': ('https://docs.python.org/3/%s', ''),
 
-'texinfo': ('http://tug.org/texinfohtml/latex2e.html#%s', '')
+'texinfo': ('http://tug.org/texinfohtml/latex2e.html#%s', ''),
+
+'texpkg': ('https://ctan.org/pkg/%s', '')
             }
 
 
@@ -91,13 +94,16 @@ templates_path = ['_templates']
 # sheets) here, relative to this directory. They are copied after
 # the builtin static files, so a file named "default.css" will
 # overwrite the builtin "default.css".
-
+html_logo = '_static/athena.png'
 html_static_path = ['_static']
 
 html_context = {
     'css_files': [
-        '_static/theme_overrides.css',  # override wide tables in
-                                        # RTD theme
+        
+        # override wide tables in RTD theme
+        '_static/css/theme_overrides.css',
+        
+     
         ],
      }
 
@@ -149,6 +155,9 @@ beginning of every source file that is read.
 
 rst_prolog = """
 .. |latex| replace:: LaTeX
+.. |tex| replace:: TeX
+.. |euro| unicode:: U+20AC .. EURO SIGN
+
 """
 
 #----------------- 
@@ -189,18 +198,18 @@ exclude_patterns = []
 
 # 5. LATEX OUTPUT CONFIG
 #
-# 5.1 General
+# 5.1       .tex file output
 
 latex_engine = 'xelatex'
+
 latex_show_urls = 'no' # εναλλακτικά 'footnote', 'inline'
+
 #latex_toplevel_sectioning = 'part'
+
+latex_show_pagerefs = False
+
 latex_additional_files = ['mystyle.tex.txt']
 
-latex_documents = [
-  ('latex/index', 'LatexGuide.tex', f'Latex Guide', u'Alex', 'manual'),
-  ('rest/index', 'RestGuide.tex', f'RestructuredText Guide', u'Alex', 'manual'),
-]
-# 5.2 Latex Elements
 
 latex_elements = {
     
@@ -228,3 +237,14 @@ latex_elements = {
 
     
 }
+
+
+
+# 5.2       .pdf file output
+
+latex_documents = [
+  ('latex/index', 'LatexGuide.tex', f'Latex Guide', u'Alex', 'manual'),
+  ('rest/index', 'RestGuide.tex', f'RestructuredText Guide', u'Alex', 'manual'),
+]
+
+
