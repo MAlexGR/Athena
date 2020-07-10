@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 sphinx = "*"
 sphinx-copybutton = "*"
+sphinx-rtd-theme = "*"
+sphinxcontrib-programoutput = "*"
 
 [requires]
 python_version = "3.8"

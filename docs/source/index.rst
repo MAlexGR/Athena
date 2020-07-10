@@ -7,14 +7,19 @@ Welcome to Athena Docs's documentation!
 =======================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Γλώσσες Προγραμματισμού
 
-
+   latex/tex-Start
+   rest/rst-Start
 
 Indices and tables
 ==================
+.. toctree::
+   :maxdepth: 1
 
+   terms
+   
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

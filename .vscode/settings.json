@@ -1,0 +1,22 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    
+    "editor.minimap.enabled": false,
+    "editor.wordWrap":"wordWrapColumn",
+    "editor.wordWrapColumn":79,
+    "editor.rulers": [3, 80, 65],
+    
+    "workbench.tree.indent": 24,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#0de04c"
+    },
+
+    
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "restructuredtext.confPath": "${workspaceFolder}\\docs",
+    "restructuredtext.builtDocumentationPath" : "${workspaceRoot}/build/html",
+    
+
+}
