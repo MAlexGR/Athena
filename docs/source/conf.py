@@ -25,8 +25,7 @@ author = 'Alex'
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
 
-# The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+
 
 # GENERAL CONFIGURATION
 
@@ -177,15 +176,24 @@ rst_prolog = """
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
+    # prev_next_buttons_location': Location to display Next and Previous buttons. This can be either bottom, top, both , or None. Default: 'bottom',
     'prev_next_buttons_location': 'both',
+    # style_external_links': Add an icon next to external links. Default: False,
     'style_external_links': False,
-    'style_nav_header_background': 'white',
+    # style_nav_header_background': Changes the background of the search area in the navigation bar. The value can be anything valid in a CSS background property. Default: 'white',
+    #'style_nav_header_background': 'white',
     # Toc options
+    # collapse_navigation: With this enabled, navigation entries are not expandable – the [+] icons next to each entry are removed. Default: True
     'collapse_navigation': True,
+    # sticky_navigation: Scroll the navigation with the main page content as you scroll the page. Default: True
     'sticky_navigation': True,
+    # navigation_depth: The maximum depth of the table of contents tree. Set this to -1 to allow unlimited depth. Default: 4
     'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False,
+    # includehidden:Specifies if the navigation includes hidden table(s) of contents – that is, any toctree directive that is marked with the :hidden: option. Default: True,
+    #'includehidden': True,
+    # titles_only: When enabled, page subheadings are not included in the navigation. Default: False
+    #'titles_only': False,
+    # style_external_links': Add an icon next to external links. Default: False,
     'style_external_links': True,
 }
 

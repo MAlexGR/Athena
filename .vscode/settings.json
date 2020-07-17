@@ -15,8 +15,18 @@
     
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "restructuredtext.confPath": "${workspaceFolder}\\docs",
-    "restructuredtext.builtDocumentationPath" : "${workspaceRoot}/build/html",
+    "restructuredtext.builtDocumentationPath": "${workspaceRoot}/build/html",
+    "restructuredtext.confPath": ".",
     
-
+    "latex-workshop.latex.tools": [{
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+            "-xelatex",
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "-file-line-error",
+            "%DOC%"
+        ]
+    }],
 }

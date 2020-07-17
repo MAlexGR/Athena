@@ -9,7 +9,7 @@
 
 .. highlight:: latex
 
-.. _glossary:
+.. _appx:CommandGlossary:
 
 ***********************
 Σύμβολα και Εντολές
@@ -755,97 +755,119 @@ Font Style (text mode)
          Προσοχή, είναι άνευ όρων διακόπτης (unconditional switch)! Επηρεάζει οτιδήποτε την ακολουθεί. Το πεδίο εφαρμογής της πρέπει να περιορίζεται.
 
 
+   .. index:: textbf
 
    ``textbf``
-      Μετατρέπει το στυλ γραμματοσειράς σε boldface (έντονο), μόνο για το κείμενο που βρίσκεται στο όρισμα. Συντάσσεται σαν :texcode:`\textbf{<argument>}` (π.χ. :texcode:`\textbf{κείμενο που θα μετατραπεί σε bold}`).
+      :Σύνταξη:
+         .. code-block::
+         
+            \textbf{<text>}
+      :Περιγραφή:
+         Μετατρέπει το στυλ γραμματοσειράς σε boldface (έντονο), μόνο για το κείμενο που βρίσκεται στο όρισμα.
+      :Ορίσματα:
+         .. describe:: <text>
 
-      Ισοδύναμες μορφές:
+         Υποχρεωτικό όρισμα, αυθαίρετο κείμενο.
 
-      - Declaration: :texcode:`{\bfseries}` 
-      - Environment: :texcode:`\begin{bfseries} ... \end{bfseries}`
+      :Εναλλακτικά:
+         - :term:`\\bfseries <bfseries (dec)>` 
+         - :term:`\\begin{bfseries} <bfseries (env)>`
 
-      .. index:: ! textbf
-         pair: textbf ; control word
+      :Σχόλια:
+
+      
+   .. index:: bfseries (dec)
+
+   ``bfseries`` (dec)
+      :Σύνταξη:
+         .. code-block::
+         
+            \bfseries <text>
+      :Περιγραφή:
+         Εντολή - δήλωση (declaration). Μετατρέπει το στυλ γραμματοσειράς σε bold, για όλο το κείμενο που ακολουθεί.
+      :Ορίσματα: Όχι
+      :Εναλλακτικά:
+         - :term:`\\textbf <textbf>` 
+         - :term:`\\begin{bfseries} <bfseries (env)>` 
+      :Σχόλια:
+         Προσοχή, είναι άνευ όρων διακόπτης (unconditional switch)! Επηρεάζει οτιδήποτε την ακολουθεί. Το πεδίο εφαρμογής της πρέπει να περιορίζεται.
 
 
-   ``bfseries``
-      Δες :term:`\\textbf <textbf>`
-
-      .. index:: ! bfseries
-         pair: bfseries ; declaration
-         see: bfseries ; textbf
-
-
-
-   ``begin{bfseries}``
-       Δες :term:`\\textbf <textbf>`
-
-       .. index:: ! begin{bfseries}
-          pair: begin{bfseries} ; environment
-          see: begin{bfseries} ; textbf
-
-
+   .. index:: textup
 
    ``textup``
-      Μετατρέπει το στυλ γραμματοσειράς σε Upright (όρθιο), μόνο για το κείμενο που βρίσκεται στο όρισμα. Συντάσσεται σαν :texcode:`\textup{<argument>}` (π.χ. `\textup{κείμενο που θα μετατραπεί σε upright}`). Αυτό ισχύει ήδη από προεπιλογή.
+      :Σύνταξη:
+         .. code-block::
+         
+            \textup{<text>}
+      :Περιγραφή:
+         Μετατρέπει το στυλ γραμματοσειράς σε upright (όρθιο), μόνο για το κείμενο που βρίσκεται στο όρισμα. Αυτό ισχύει ήδη από προεπιλογή.
+      :Ορίσματα:
+         .. describe:: <text>
 
-      Ισοδύναμες μορφές:
-
-      - Declaration: :texcode:`{\upshape}` 
-      - Environment: :texcode:`\begin{upshape} ... \end{upshape}`
-
-      .. index:: ! textup
-         pair: textup ; control word
-
-
-   ``upshape``
-      Δες :term:`\\textup <textup>`
-
-      .. index:: ! upshape
-         pair: upshape ; control word
-         see: upshape ; textup
-   
+         Υποχρεωτικό όρισμα, αυθαίρετο κείμενο.
+      :Εναλλακτικά:
+         - :term:`\\upshape <upshape (dec)>` 
+         - :term:`\\begin{upshape} <upshape (env)>` 
+      :Σχόλια:
 
 
+   .. index:: upshape (dec)
 
-   ``begin{upshape}``
-       Δες :term:`\\textup <textup>`
+   ``upshape`` (dec)
+      :Σύνταξη:
+         .. code-block::
+         
+            \upshape <text>
+      :Περιγραφή:
+         Εντολή - δήλωση (declaration). Μετατρέπει το στυλ γραμματοσειράς σε upright (όρθιο), για όλο το κείμενο που ακολουθεί.
+      :Ορίσματα: Όχι
+      :Εναλλακτικά:
+         - :term:`\\textup <textup>` 
+         - :term:`\\begin{upshape} <upshape (env)>` 
+      :Σχόλια:
+         Προσοχή, είναι άνευ όρων διακόπτης (unconditional switch)! Επηρεάζει οτιδήποτε την ακολουθεί. Το πεδίο εφαρμογής της πρέπει να περιορίζεται.
 
-       .. index:: ! begin{upshape}
-          pair: begin{upshape} ; environment
-          see: begin{upshape} ; textup
 
 
+   .. index:: textsl
 
    ``textsl``
+      :Σύνταξη:
+         .. code-block::
+         
+            \textsl{<text>}
+      :Περιγραφή:
+         Μετατρέπει το στυλ γραμματοσειράς σε slanted (κεκλιμένο), μόνο για το κείμενο που βρίσκεται στο όρισμα.
+      :Ορίσματα:
+         .. describe:: <text>
 
-      Μετατρέπει το στυλ γραμματοσειράς σε slanted (κεκλιμένο), μόνο για το κείμενο που βρίσκεται στο όρισμα. Συντάσσεται σαν :texcode:`\textsl{<argument>}` (π.χ. `\textsl{κείμενο που θα μετατραπεί σε slanted}`). Προσοχή, δεν έχει το ίδιο αποτέλεσμα με την :term:`\\textit <textit>`.
-
-      Ισοδύναμες μορφές:
-
-      - Declaration: :texcode:`{\slshape}` 
-      - Environment: :texcode:`\begin{slshape} ... \end{slshape}`
-
-      .. index:: ! textsl
-         pair: textsl ; control word
+         Υποχρεωτικό όρισμα, αυθαίρετο κείμενο.
+      :Εναλλακτικά:
+         - :term:`\\slshape <slshape (dec)>` 
+         - :term:`\\begin{slshape} <slshape (env)>` 
+      :Σχόλια:
+         Προσοχή, δεν έχει το ίδιο αποτέλεσμα με την :term:`\\textit <textit>`.
 
 
-   ``slshape``
-      Δες :term:`\\textsl <textsl>`
 
-      .. index:: ! slshape
-         pair: slshape ; control word
-         see: slshape ; textsl
+   .. index:: slashape (dec)
+
+   ``slshape`` (dec)
+      :Σύνταξη:
+         .. code-block::
+         
+            \slshape <text>
+      :Περιγραφή:
+         Εντολή - δήλωση (declaration). Μετατρέπει το στυλ γραμματοσειράς σε slanted (κεκλιμένο), για όλο το κείμενο που ακολουθεί.
+      :Ορίσματα: Όχι
+      :Εναλλακτικά:
+         - :term:`\\textup <textsl>` 
+         - :term:`\\begin{slshape} <slshape (env)>` 
+      :Σχόλια:
+         Προσοχή, είναι άνευ όρων διακόπτης (unconditional switch)! Επηρεάζει οτιδήποτε την ακολουθεί. Το πεδίο εφαρμογής της πρέπει να περιορίζεται.
    
 
-
-
-   ``begin{slshape}``
-       Δες :term:`\\textsl <textsl>`
-
-       .. index:: ! begin{slshape}
-          pair: begin{slshape} ; environment
-          see: begin{slshape} ; textsl
 
 
 
@@ -1084,6 +1106,67 @@ Environments
 
 .. glossary::
    :sorted:
+
+
+   .. index:: slashape (env)
+
+   ``slshape`` (env)
+     :Σύνταξη:
+         .. code-block:: latex
+         
+            \begin{slshape}
+            body
+            \end{slshape}
+      :Περιγραφή:
+         Περιβάλλον, ισοδύναμο με την εντολή :term:`\\textsl <textsl>`, μετατρέπει το στυλ γραμματοσειράς σε slanted (κεκλιμένο).
+      :Ορίσματα:
+         Όχι
+      :Σχόλια:
+      :Εναλλακτικά:
+         - :term:`\\textsl <textsl>`.
+         - :term:`\\slshape <slshape (dec)>`
+
+
+
+   .. index:: upshape (env)
+
+   ``upshape`` (env)
+     :Σύνταξη:
+         .. code-block:: latex
+         
+            \begin{upshape}
+            body
+            \end{upshape}
+      :Περιγραφή:
+         Περιβάλλον, ισοδύναμο με την εντολή :term:`\\textup <textup>`, μετατρέπει το στυλ γραμματοσειράς σε upright (όρθιο).
+      :Ορίσματα:
+         Όχι
+      :Σχόλια:
+      :Εναλλακτικά:
+         - :term:`\\textup <textup>`.
+         - :term:`\\upshape <upshape (dec)>`
+
+
+
+
+   .. index:: bfseries (env)
+
+   ``bfseries`` (env)
+     :Σύνταξη:
+         .. code-block:: latex
+         
+            \begin{bfseries}
+            body
+            \end{bfseries}
+      :Περιγραφή:
+         Περιβάλλον, ισοδύναμο με την εντολή :term:`\\textbf <textbf>`, μετατρέπει το στυλ γραμματοσειράς σε bold.
+      :Ορίσματα:
+         Όχι
+      :Σχόλια:
+      :Εναλλακτικά:
+         - :term:`\\textbf <textbf>`.
+         - :term:`\\bfseries <bfseries (dec)>`
+
 
 
    ``abstract``
@@ -1355,6 +1438,28 @@ Spaces
 Boxes
 ============
 
+.. glossary::
+   :sorted:
+
+   .. index:: mbox
+
+   ``mbox``
+      :Σύνταξη:
+         .. code-block::
+         
+            \mbox{<text>}
+            
+      :Περιγραφή:
+         Εξασφαλίζει ότι το όρισμα `text` δε θα περιέχει αλλαγή γραμμής.
+      :Ορίσματα:
+         .. describe:: <text>:
+
+            Υποχρεωτικό, αυθαίρετο κείμενο
+      :Εναλλακτικά:
+         - :term:`\\begin{minipage} <minipage>`
+         - :term:`\\parbox <parbox>`
+      :Σχόλια:
+          Αν το όρισμα είναι μεγάλο σε έκταση θα επεκταθεί και πέρα από τα όρια της σελίδας (μη αναγνώσιμο), γιατί η εντολή αποτρέπει τις αλλαγές γραμμής. Χρησιμοποιήστε την :term:`\\mbox <mbox>` με προσοχή και σε συνδυασμό με άλλες κατάλληλες εντολές, για να αποφύγετε τέτοια συμπεριφορά. 
 
 
 

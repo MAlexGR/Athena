@@ -1,4 +1,4 @@
-.. _tex-LatexSyntax-ref:
+.. _sec:LatexSyntax:
 
 Συντακτικό
 ============
