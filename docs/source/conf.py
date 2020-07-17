@@ -25,6 +25,8 @@ author = 'Alex'
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
 
+# The name of the Pygments (syntax highlighting) style to use.
+pygments_style = 'sphinx'
 
 # GENERAL CONFIGURATION
 
@@ -41,11 +43,12 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinxcontrib.programoutput",
     "sphinx.ext.imgconverter",
+    'sphinxcontrib.inlinesyntaxhighlight',
 ]
 
 # 1.1 Extensions Configuration
 
-# -------------  extlinks  -----------------------------------
+# -------------  ext.extlinks  -----------------------------------
 # Aυτή τη ρύθμιση τη βρήκα στο
 # https://github.com/sphinx-doc/sphinx/blob/3.x/doc/conf.py
 # από το ίδιο το sphinx
@@ -72,9 +75,10 @@ extlinks = {
             }
 
 
-# -------------  extlinks  -----------------------------------
+# -------------  ext.todo  -----------------------------------
 
 todo_include_todos = True
+# -------------------------------------------------------------
 
 
 
@@ -106,6 +110,9 @@ html_context = {
      
         ],
      }
+
+# def setup(app):
+#         app.add_stylesheet('_static/css/custom.css') 
 
 # 3. MASTER DOCUMENT CONFIG
 

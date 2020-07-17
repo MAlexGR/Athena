@@ -25,7 +25,7 @@ bla bla
 
    tex.HowItWorks
    tex.Symbols
-   tex.CommandList
+
 
 
 .. raw:: latex

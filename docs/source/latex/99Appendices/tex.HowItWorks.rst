@@ -1,6 +1,3 @@
-.. raw:: latex
-
-    
 
 
 
@@ -26,9 +23,8 @@ I like to think of the commands and macros as falling into one of several groups
   
   \item[Package commands] Ισχύει ότι και παραπάνω και επιπλέον είναι σπάνιο να περιλαμβάνουν εντολές \TeX\ (βασίζονται εξολοκλήρου στη \LaTeX).
   
-  \item[User commands] Typically these are limited to the commands provided by the class
-and any packages that might be called for, but more experienced users will employ
-some kernel commands, like newcommand, to make their authoring more efficient.
+  \item[User commands] Typically these are limited to the commands provided by the class and any packages that might be called for, but more experienced users will employ some kernel commands, like newcommand, to make their authoring more efficient.
+  
 \end{description}
 
 • TeX primitives. These are the basic constructs of the TeX language.

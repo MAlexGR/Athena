@@ -20,20 +20,20 @@ https://www.tug.org/begin.html
 
 
 .. toctree::
-   :maxdepth: 2
-
+   :maxdepth: 1
+      
    help
    01Preamble/tex.Preamble
    01Preamble/tex.Conventions
    02FirstSteps/index
    03Introduction/index
    04Basics/index
+   Fonts/tex.Fonts
    commands/tex.Commands
    
    
 
 .. raw:: latex
-   
    
    \begin{appendices}
    
@@ -47,16 +47,16 @@ https://www.tug.org/begin.html
    
    \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
-.. rubric:: Παραρατήματα
+
 .. toctree::
    :maxdepth: 1
+   :caption: Παραρτήματα
 
    99Appendices/tex.HowItWorks
-   99Appendices/tex.Symbols
    99Appendices/tex.CommandList
 
 
 .. raw:: latex
-
+   
    \end{appendices}
 

@@ -10,6 +10,7 @@ sphinx = "*"
 sphinx-copybutton = "*"
 sphinx-rtd-theme = "*"
 sphinxcontrib-programoutput = "*"
+sphinxcontrib-inlinesyntaxhighlight = "*"
 
 [requires]
 python_version = "3.8"
