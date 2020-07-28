@@ -1,4 +1,4 @@
-.. _LatexInputFiles:
+.. _sec:TexInputFile:
 
 Αρχείο Εισόδου
 ==============================

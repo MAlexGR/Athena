@@ -1,0 +1,81 @@
+% arara: xelatex
+\documentclass[12pt]{article}
+
+
+\usepackage[active, xetex, displaymath, sections, tightpage]{preview}
+\setlength\PreviewBorder{10pt}%
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\usepackage[nonumeralsign, stigma]{xgreek}
+\setmainfont{Georgia Pro}
+\setsansfont{Lato}
+\setmonofont{Liberation Mono}
+\usepackage{layouts}
+\setlayoutscale{1.0}
+
+\definecolor{highlightcolor}{RGB}{225,15,0}
+
+\begin{document}
+
+% example 1
+\begin{preview}
+
+\input{ComExm_1}
+
+\end{preview}
+
+
+% example 2
+\begin{preview}
+
+\input{ComExm_2.tex}
+
+\end{preview}
+
+
+% example 3
+\begin{preview}
+
+\input{ComExm_3.tex}
+
+\end{preview}
+
+
+% example 4
+\begin{preview}
+    
+\input{ComExm_4.tex}
+
+\end{preview}
+
+\begin{preview}
+	
+	\currentparagraph
+	\begin{figure}
+		\paragraphdesign
+		\caption{Paragraphs in this document}\label{fig:dpara}
+	\end{figure}
+	
+\end{preview}
+
+\begin{preview}
+	
+	\begin{figure}
+		\currentfloatpage
+		\trytotalnumber{3}
+		\trytopnumber{2}
+		\trytopfraction{0.7}
+		\trytextfraction{0.2}
+		\trybottomfraction{0.3}
+		\trybottomnumber{1}
+		\setlayoutscale{0.25}
+		\floatpagedesign
+		\caption{The standard \LaTeX{} float and text page settings}
+		\label{fig:fpstd}
+	\end{figure}
+	
+\end{preview}
+
+\end{document}

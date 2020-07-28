@@ -4,7 +4,7 @@
 Πως Λειτουργεί η LaTeX
 ========================
 
-Ίσως είναι λίγο ριψοκίνδυνο να 
+Ίσως είναι λίγο ριψοκίνδυνο να https://tex.stackexchange.com/questions/104023/what-is-a-token
 
 Strictly speaking, LaTeX is a set of macros built on top of the TeX program originally developed by Donald Knuth [Knu86, Knu84] in the early 1980’s. TeX is undoubtedly one of the most robust computer programs to date.
 

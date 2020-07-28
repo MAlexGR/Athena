@@ -21,10 +21,10 @@ bla bla
 .. \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
 
    tex.HowItWorks
-   tex.CommandList
+   tex.CommList
 
 
 .. raw:: latex

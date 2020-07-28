@@ -20,9 +20,11 @@
    tex.Syntax
    tex.WhiteSpace
    tex.RawText
+   tex.Lengths
    tex.Modes
    tex.CharactersSymbols
    tex.Comments
+   tex.Delimiters
 
 
 

@@ -29,6 +29,7 @@ https://www.tug.org/begin.html
    02FirstSteps/index
    03Introduction/index
    04Basics/index
+   Typesetting/tex.Typesetting
    Fonts/tex.Fonts
    commands/tex.Commands
    99Appendices/index
