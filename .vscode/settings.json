@@ -16,7 +16,6 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "restructuredtext.builtDocumentationPath": "${workspaceRoot}/build/html",
-    "restructuredtext.confPath": ".",
     
     "latex-workshop.latex.tools": [{
         "name": "latexmk",
@@ -28,5 +27,7 @@
             "-file-line-error",
             "%DOC%"
         ]
-    }],
+    }
+],
+"restructuredtext.confPath": ".",
 }

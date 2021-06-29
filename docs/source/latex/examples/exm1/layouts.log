@@ -1,0 +1,202 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.4)  28 JUL 2020 09:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**layouts.tex
+(./layouts.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15>
+(c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(c:/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(c:/texlive/2020/texmf-dist/tex/latex/layouts/layouts.sty
+Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
+\l@ylen=\skip49
+\layoutsbox=\box45
+\l@youtunitlength=\skip50
+\l@youtlinethick=\skip51
+\l@youtlinethickii=\skip52
+\l@ysetupparskip=\skip53
+\l@ysetupbaselineskip=\skip54
+\l@yonem=\skip55
+\l@yonex=\skip56
+\l@ylmarg=\skip57
+\l@yrmarg=\skip58
+\l@yitmindent=\skip59
+\l@ylblwidth=\skip60
+\l@ylblsep=\skip61
+\l@ylparindent=\skip62
+\l@ytsep=\skip63
+\l@ypskip=\skip64
+\l@yptsep=\skip65
+\l@ypsep=\skip66
+\l@yitmsep=\skip67
+\l@ytok=\toks15
+\l@youtpw=\count171
+\l@youtph=\count172
+\l@youthpi=\count173
+\l@youthpii=\count174
+\l@youthpiii=\count175
+\l@youthpiv=\count176
+\l@youthpv=\count177
+\l@youthpvi=\count178
+\l@youthpvii=\count179
+\l@youtparskip=\count180
+\l@youtvpi=\count181
+\l@youtvpii=\count182
+\l@youtvpiii=\count183
+\l@youtvpiv=\count184
+\l@youtvpv=\count185
+\l@youtvpvi=\count186
+\l@youtvpvii=\count187
+\l@youthdo=\count188
+\l@youthdi=\count189
+\l@youthdii=\count190
+\l@youthdiii=\count191
+\l@youthdiv=\count192
+\l@youthdv=\count193
+\l@youthdvi=\count194
+\l@youthdvii=\count195
+\l@youtvdo=\count196
+\l@youtvdi=\count197
+\l@youtvdii=\count198
+\l@youtvdiii=\count199
+\l@youtvdiv=\count266
+\l@youtvdv=\count267
+\l@youtvdvi=\count268
+\l@youtvdvii=\count269
+\l@youtvdviii=\count270
+\l@youtxci=\count271
+\l@youtxcii=\count272
+\l@youtxciii=\count273
+\l@youtxciv=\count274
+\l@youtxcv=\count275
+\l@youtxcvi=\count276
+\l@youtyci=\count277
+\l@youtycii=\count278
+\l@youtyciii=\count279
+\l@youtyciv=\count280
+\l@youtycv=\count281
+\l@youtycvi=\count282
+\l@youtycvii=\count283
+\l@youtycviii=\count284
+\l@youtxco=\count285
+\l@youtyco=\count286
+\l@ytempdima=\skip68
+\stockwidth=\skip69
+\stockheight=\skip70
+\trimedge=\skip71
+\trimtop=\skip72
+\uppermargin=\skip73
+\spinemargin=\skip74
+)
+
+Package layouts Warning: Layout scale set to 1.0 on input line 4.
+
+(c:/texlive/2020/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(c:/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count287
+\c@Blindtext=\count288
+\c@blind@countparstart=\count289
+\blind@countxx=\count290
+\blindtext@numBlindtext=\count291
+\blind@countyy=\count292
+\c@blindlist=\count293
+\c@blindlistlevel=\count294
+\c@blindlist@level=\count295
+\blind@listitem=\count296
+\c@blind@listcount=\count297
+\c@blind@levelcount=\count298
+\blind@mathformula=\count299
+\blind@Mathformula=\count300
+\c@blind@randomcount=\count301
+\c@blind@randommax=\count302
+\c@blind@pangramcount=\count303
+\c@blind@pangrammax=\count304
+)
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-05-05 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count305
+\l__pdf_internal_box=\box46
+\g__pdf_backend_object_int=\count306
+\g__pdf_backend_annotation_int=\count307
+)
+(./layouts.aux)
+\openout1 = `layouts.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+.
+ (c:/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+
+Package layouts Warning: Layout scale set to 0.5 on input line 9.
+
+! Undefined control sequence.
+l.9 \begin{document}\layout
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 16.
+
+LaTeX Warning: Float too large for page by 3.33583pt on input line 18.
+
+[1] [2] [3] (./layouts.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 896 strings out of 479282
+ 14758 string characters out of 5884017
+ 286427 words of memory out of 5000000
+ 18601 multiletter control sequences out of 15000+600000
+ 534225 words of font info for 38 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 24i,9n,21p,171b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on layouts.pdf (3 pages).

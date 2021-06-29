@@ -9,8 +9,11 @@
 \usepackage{booktabs}
 \usepackage{comment}
 \usepackage{xcolor}
+\usepackage{tcolorbox}
 
 
+\usepackage{minitoc}
+\mtcsettitle{minitoc}{Περιεχόμενα}
 
 
 % Επιλογή χρώματος 'ανοιχτό γκρι' για background στα δείγματα κώδικα
@@ -22,11 +25,11 @@
 % Επαναρίθμηση των κεφαλαίων ανά μέρος
 % το βρήκα στο https://tex.stackexchange.com/questions/54383/how-to-reset-chapter-and-section-counter-with-part
 
-\makeatletter
-\@addtoreset{chapter}{part}
-\makeatother
+% \makeatletter
+% \@addtoreset{chapter}{part}
+% \makeatother
 
-\setcounter{tocdepth}{2}
+%\setcounter{tocdepth}{2}
 
 %------------------
 % νεό περιβάλλον για μικρή περίληψη πριν την έναρξη του κάθε κεφαλαίου. Δεν το χρησιμοποίησα τελικά

@@ -1,12 +1,15 @@
-% !TEX program = xelatex
 
-\documentclass{article}
+
+\documentclass[11pt]{report}
 \usepackage{graphicx}
 \usepackage{fontspec}
 \usepackage{xltxtra}
+\usepackage{layouts}
+\usepackage{textcomp}
 \usepackage[nonumeralsign, stigma]{xgreek}
 \setmainfont{Lato}        % ή GFS Artemisia
 % Tinos
+% Lato
 % Fira
 % Georgia Pro (++ πολύ καλή)
 % Noto Serif
@@ -18,19 +21,55 @@
 
 \setlength{\parskip}{\baselineskip}%
 \setlength{\parindent}{0pt}%
+\usepackage{color}
+\usepackage[switch, displaymath, mathlines]{lineno}
+\renewcommand\linenumberfont{\bfseries\tiny\sffamily}
+\renewcommand\thelinenumber{\color{red}\arabic{linenumber}}
+\linenumbers
+
 \begin{document}
 
+
+\chapter{Βασικά στοιχεία}
 	
-	\section{First section}
-	Some text. πάνω \& κάτω
+\section{First section}
+
+\begin{figure}
+	\oddpagelayoutfalse
+	\twocolumnlayouttrue
+	\pagediagram
+	\caption{Left-hand two-column page layout parameters} \label{fig:pplt}
+\end{figure}
+
+Some text. πάνω \& κάτω
 	
+$\langle x \rangle$
 
-Αν και το το συγκεκριμένο περιβάλλον δε θεωρείται παρωχημένο (obsolete), συνήθως για το σκοπό αυτό χρησιμοποιούνται ισχυρότερα συστήματα δημιουργίας γραφικών όπως τα TikZ, PSTricks, MetaPost και Asymptote. Μην ξεχνάτε ότι στο αγγλοσαξωνικό σύστημα αρίθμησης (που είναι διεθνές), τα σύμβολα τελεία ``.`` και κόμμα ``,`` έχουν ακριβώς την αντίθετη χρήση από το ελληνικό.
+\begin{tabular}{lllc}
+	ID          & \multicolumn{2}{c}{Όνομα} & Ηλικία \\
+	\hline
+	978-0-03701 & Παπαδόπουλος & Νίκος      & 28  \\
+	654-2-02262 & Δικαίου      & Μαρίνα     & 35  
+\end{tabular}
 
-\(\mathversion{bold} x+t=t-1\) \mathversion{bold} x+t=t-1
+\begin{tabular}{lccl} 
+	\textit{ID}       &\multicolumn{2}{c}{\textit{Name}} &\textit{Age} \\
+	\hline  
+	978-0-393-03701-2 &O'Brian &Patrick                  &55           \\
+	...
+\end{tabular}
 
-\[x+t=t-1\]
+\begin{tabular}{l|r@{--}l} 
+	\multicolumn{1}{c}{\textsc{Period}} & \multicolumn{2}{c}{\textsc{Span}} \\ \hline
+	Baroque          &1600              &1760         \\
+	Classical        &1730              &1820         \\
+	Romantic         &1780              &1910         \\
+	Impressionistic  &1875              &1925
+\end{tabular}
 
+{\slshape Αν και το το συγκεκριμένο περιβάλλον δε θεωρείται παρωχημένο (obsolete), συνήθως για το σκοπό αυτό χρησιμοποιούνται ισχυρότερα συστήματα δημιουργίας γραφικών όπως τα TikZ, PSTricks, MetaPost και Asymptote. Μην ξεχνάτε ότι στο αγγλοσαξωνικό σύστημα αρίθμησης (που είναι διεθνές), τα σύμβολα τελεία ``.`` και κόμμα ``,`` έχουν ακριβώς την αντίθετη χρήση από το ελληνικό.}
+
+\newpage
 
 
 	
@@ -39,6 +78,7 @@
 		Αν και το το συγκεκριμένο περιβάλλον δε θεωρείται παρωχημένο (obsolete), συνήθως για το σκοπό αυτό χρησιμοποιούνται ισχυρότερα συστήματα δημιουργίας γραφικών όπως τα TikZ, PSTricks, MetaPost και Asymptote. Μην ξεχνάτε ότι στο αγγλοσαξωνικό σύστημα αρίθμησης (που είναι διεθνές), τα σύμβολα τελεία ``.`` και κόμμα ``,`` έχουν ακριβώς την αντίθετη χρήση από το ελληνικό.
 	\end{sloppypar}
 
+\pagebreak
 
 \begin{center}
 	\# \$ \% \& \{ \} \_ \~{} \^{} \textbackslash \\
@@ -46,6 +86,8 @@
 \end{center}
 
 text and [text]
+
+\the\baselineskip
 
 A linear function is a function of the form \[ y = mx + c \]
 

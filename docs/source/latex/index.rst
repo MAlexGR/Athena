@@ -20,19 +20,21 @@ https://www.tug.org/begin.html
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
    :numbered:
+   :hidden:
       
    help
-   01Preamble/tex.Preamble
-   01Preamble/tex.Conventions
-   02FirstSteps/index
-   03Introduction/index
-   04Basics/index
+   Preamble/tex.Preamble
+   Preamble/tex.Conventions
+   FirstSteps/index
+   Introduction/index
+   Basics/index
+   Measurments/index
    Typesetting/tex.Typesetting
    Fonts/tex.Fonts
-   commands/tex.Commands
-   99Appendices/index
+   Commands/tex.Commands
+   Appendices/index
 
 
 

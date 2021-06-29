@@ -1,0 +1,61 @@
+% arara: xelatex
+\documentclass
+[
+	varwidth=true,
+	border=10pt,
+%	convert={size=640x},
+	convert={inext=.pdf, outext=.png},
+	preview,
+	12pt,
+	multi = true,
+]
+{standalone}
+
+%\documentclass[crop,border=2]{standalone}
+\standaloneenv{myexm, mybeer, mycar}
+
+% \usepackage{graphicx}
+% \usepackage{fontspec}
+\usepackage{xltxtra}
+% \usepackage[nonumeralsign, stigma]{xgreek}
+\setmainfont{Georgia Pro}
+\setsansfont{Lato}
+\setmonofont{Liberation Mono}
+% \usepackage{blindtext}
+% \usepackage{color}
+% \usepackage[switch, displaymath, mathlines]{lineno}
+% \renewcommand\linenumberfont{\bfseries\tiny\sffamily}
+% \renewcommand\thelinenumber{\color{red}\arabic{linenumber}}
+% \linenumbers
+
+\begin{document}
+
+\begin{myexm}
+
+Αν και το το συγκεκριμένο περιβάλλον δε θεωρείται παρωχημένο (obsolete), συνήθως για το σκοπό αυτό χρησιμοποιούνται ισχυρότερα συστήματα δημιουργίας γραφικών όπως τα TikZ, PSTricks, MetaPost και Asymptote. Μην ξεχνάτε ότι στο αγγλοσαξωνικό σύστημα αρίθμησης (που είναι διεθνές), τα σύμβολα τελεία ``.`` και κόμμα ``,`` έχουν ακριβώς την αντίθετη χρήση από το ελληνικό.
+
+\end{myexm}
+
+
+\begin{mybeer}
+
+καλημέρα
+
+\end{mybeer}
+
+
+\begin{mycar}
+
+και καληνύχτα
+
+\end{mycar}
+
+
+\begin{standalone}
+
+	〈sub-file content〉
+
+\end{standalone}
+
+
+\end{document}

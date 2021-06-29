@@ -1,6 +1,5 @@
-.. include:: <isonum.txt>
 
-.. _tex-Basics-ref:
+.. _ch:TexBasics:
 
 ********************
 Βασικές Έννοιες
@@ -20,7 +19,6 @@
    tex.Syntax
    tex.WhiteSpace
    tex.RawText
-   tex.Lengths
    tex.Modes
    tex.CharactersSymbols
    tex.Comments

@@ -1,0 +1,46 @@
+\documentclass[]{article}
+
+\usepackage{layouts}
+\setlayoutscale{1.0}
+%\usepackage{showframe}
+\usepackage{blindtext}
+\blindmathtrue
+
+\begin{document}\layout
+
+
+
+\begin{figure}
+	\currentpage
+	\oddpagelayouttrue
+	\pagedesign
+	\caption{Odd page layout for this document} \label{fig:ptrs}
+\end{figure}
+
+
+
+\begin{figure}
+	\paragraphdiagram
+	\caption{Paragraph parameters}\label{fig:fpara}
+\end{figure}
+
+
+\currentparagraph
+\begin{figure}
+	\paragraphdesign
+	\caption{Paragraphs in this document}\label{fig:dpara}
+\end{figure}
+
+
+
+\begin{figure}
+	\floatpagediagram
+	\caption{Float and text page parameters}\label{fig:fpp}
+\end{figure}
+
+\begin{figure}
+\printparameterstrue
+\unitlength = 1pt 
+\drawfontframelabel{\Huge\textbf{tangling}}
+\end{figure}
+\end{document}          
